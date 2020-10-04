@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.read-more {
+  /* border: 1px solid red; */
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(35, 37, 38, 0.5),
+      rgba(65, 67, 69, 0.5)
+    ),
+    url("./images/pexels-photo-248515.png");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.read-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.read-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.read-para {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.read-bottom {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  color: white;
+  border: 2px solid gray;
+}
